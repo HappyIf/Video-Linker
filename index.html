@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Mode Button</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .btn {
+            background-color: #333;
+            color: white;
+            border: 2px solid #666;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+            outline: none;
+            transition: background-color 0.3s, border-color 0.3s;
+        }
+        .btn:focus, .btn:hover {
+            background-color: #555;
+            border-color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <button class="btn" onclick="window.location.href='https://www.w3schools.com/css/mov_bbb.mp4';" tabindex="1">
+        Go to Video
+    </button>
+
+</body>
+</html>
